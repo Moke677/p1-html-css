@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+}
+
+.logo,
+.login {
+  width: 25%;
+  text-align: center;
+}
+
+.menu {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  color: rgb(196, 75, 223);
+  padding: 14px 16px;
+  text-decoration: none;
+}
