@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+}
+
+nav {
+    background-color: #ed4e4e;
+    height: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 130px;
+}
+
+nav h1 {
+    color: white;
+    font-size: 48px;
+}
+
+.blokje {
+    display: none;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+.sectie {
+    height: 396px;
+    padding: 30px 120px;
+}
+
+.sectie h2 {
+    color: black;
+    font-size: 36px;
+}
+
+.sectie p {
+    color: black;
+    font-size: 26px;
+}
+
+.sectie1 {
+    background-color: #facc22;
+}
+
+.sectie2 {
+    background-color: #f0912a;
+}
+
+.sectie3 {
+    background-color: #69b14d;
+}
+
+
+
+@media (max-width: 1024px) {
+
+    nav {
+        background-color: #ff6b81;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .sectie {
+        height: 390px;
+        padding: 20px;
+    }
+
+    .sectie h2,
+    .sectie p {
+        color: white;
+    }
+
+    .sectie1 {
+        background-color: #ff4757;
+    }
+
+    .sectie2 {
+        background-color: #5352ed;
+    }
+
+    .sectie3 {
+        background-color: #3742fa;
+    }
+}
+
+
+/* MOBILE: 600px en kleiner */
+@media (min-width: 600px) {
+
+    nav {
+        background-color: #686de0;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    /* Het blokje wordt hier zichtbaar */
+    .blokje {
+        display: block;
+    }
+
+    .sectie {
+        height: 440px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px 40px;
+    }
+
+    .sectie h2 {
+        font-size: 32px;
+    }
+
+    .sectie p {
+        font-size: 22px;
+    }
+
+    .sectie1 {
+        background-color: #7ed6df;
+    }
+
+    .sectie2 {
+        background-color: #e056fd;
+    }
+
+    .sectie3 {
+        background-color: #30336b;
+    }
+}
