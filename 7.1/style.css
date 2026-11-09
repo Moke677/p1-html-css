@@ -1,137 +1,104 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Times New Roman", serif;
-}
 
 nav {
-    background-color: #ed4e4e;
-    height: 132px;
+    background-color: #ee4e4e;
+    height: 80px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    padding: 0 130px;
-}
-
-nav h1 {
+    padding-left: 75px;
     color: white;
-    font-size: 48px;
 }
 
-.blokje {
+.menu-blokje {
     display: none;
     width: 20px;
     height: 20px;
     background-color: white;
 }
 
-.sectie {
-    height: 396px;
-    padding: 30px 120px;
-}
-
-.sectie h2 {
+section {
+    height: 240px;
+    padding: 10px 70px;
     color: black;
-    font-size: 36px;
 }
 
-.sectie p {
-    color: black;
-    font-size: 26px;
-}
-
-.sectie1 {
+.geel {
     background-color: #facc22;
 }
 
-.sectie2 {
-    background-color: #f0912a;
+.oranje {
+    background-color: #f0922b;
 }
 
-.sectie3 {
-    background-color: #69b14d;
+.groen {
+    background-color: #6ab04c;
 }
 
-
-
-@media (max-width: 1024px) {
-
+-
+@media (max-width: 900px) {
     nav {
         background-color: #ff6b81;
+        height: 130px;
         justify-content: center;
-        padding: 0;
+        padding-left: 0;
     }
 
-    .sectie {
+    section {
         height: 390px;
-        padding: 20px;
-    }
-
-    .sectie h2,
-    .sectie p {
+        padding: 10px 20px;
         color: white;
     }
 
-    .sectie1 {
-        background-color: #ff4757;
+    .geel {
+        background-color: #ff4557;
     }
 
-    .sectie2 {
+    .oranje {
         background-color: #5352ed;
     }
 
-    .sectie3 {
+    .groen {
         background-color: #3742fa;
     }
 }
 
 
-/* MOBILE: 600px en kleiner */
-@media (min-width: 600px) {
-
+@media (max-width: 600px) {
     nav {
-        background-color: #686de0;
-        justify-content: space-between;
-        padding: 0 30px;
+                     background-color: #686de0;
+        height: 75px;
+            justify-content: space-between;
+        padding: 0 17px;
     }
 
-    /* Het blokje wordt hier zichtbaar */
-    .blokje {
+
+    .menu-blokje {
         display: block;
     }
 
-    .sectie {
-        height: 440px;
+    section {
+    height: 220px;
         display: flex;
-        flex-direction: column;
+    
+    flex-direction: column;
         justify-content: center;
-        align-items: center;
         text-align: center;
-        padding: 20px 40px;
     }
 
-    .sectie h2 {
-        font-size: 32px;
-    }
-
-    .sectie p {
-        font-size: 22px;
-    }
-
-    .sectie1 {
+    .geel {
         background-color: #7ed6df;
     }
 
-    .sectie2 {
+    .oranje {
         background-color: #e056fd;
     }
 
-    .sectie3 {
+    .groen {
         background-color: #30336b;
     }
 }
