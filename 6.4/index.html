@@ -1,103 +1,75 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hallo Hi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
     <header>
-      <nav>
-        <ul>
-          <a class="nav" href="Internet + Bellen">Internet + Bellen</a>
-          <a class="nav" href="Mobiel">Mobiel</a>
-          <a class="nav" href="Entertainment">Entertainment</a>
-          <div class="dropdown">
-            <a class="nav" href="Service">Service</a>
+        <a href="#" class="logo">
+            <img src="images/hi.png" alt="Hallo Hi logo">
+            <span>Hallo Hi</span>
+        </a>
 
-            <div class="dropdown-menu">
-              <a href="#">Hulp nodig?</a>
-              <a href="#">Hulp met Internet</a>
-              <a href="#">Hulp met Mobiel</a>
-              <a href="#">Hulp met Tv</a>
-              <a href="#">abonnement wijzigen</a>
-              <a href="#">Overstappen</a>
-              <a href="#">storing melden</a>
+        <nav>
+            <a href="#">Internet + Bellen</a>
+            <a href="#">Mobiel</a>
+            <a href="#">Entertainment</a>
+
+            <div class="dropdown">
+                <a href="#" class="dropdown-knop">Service</a>
+                <div class="dropdown-menu">
+                    <span class="dropdown-titel">Hulp nodig?</span>
+                    <a href="#">Hulp met Internet</a>
+                    <a href="#">Hulp met Mobiel</a>
+                    <a href="#">Hulp met TV</a>
+                    <a href="#">Abonnement wijzigen</a>
+                    <a href="#">Overstappen</a>
+                    <a href="#">Storing melden</a>
+                </div>
             </div>
-          </div>
-        </ul>
-      </nav>
+        </nav>
     </header>
-    <section class="sectionblack">
-      <h1>Hallo Hi</h1>
-      <h2>Hallo, Internet + Bellen van Hallo Hi…</h2>
-      <p class="bow">internet + bellen van hallo hi</p>
-      <p class="bow">
-        Kies uit sim only of een telefoon met abonnement<br />
-        van HalloHi en ontvang tijdelijk 145 voordeel.
-      </p>
-      <button class="buttn">Bekijk Deal</button>
-      <button class="buttnn">Ontdek Meer.</button>
-    </section>
-    <section class="sectioncolor">
-      <h2>Het beste van Mobiel en TV</h2>
-      <p class="wob">
-        Geen aansluitkosten en volop extra voordelen.<br />
-        Ontdek TV & streaming op een plek en switch gemakkelijk<br />
-        tussen je favoriete TV-zenders, streamingdiensten en huurfilms.
-      </p>
 
-      <p class="wob">
-        Stap je over? Geen enkel probleem. gratis nummerbehoud.<br />
-        jij vraagt het aan, wij regelen de rest.
-      </p>
+    <main>
+        <section id="hero">
+            <h1>Hallo, Hi</h1>
+            <p>Internet + Bellen van Hallo Hi…</p>
+            <div class="knoppen">
+                <a href="https://google.nl"><button type="button" class="knop-zwart">Bekijk deal</button></a>
+                <a href="#"><button type="button" class="knop-paars">Ontdek meer</button></a>
+            </div>
+        </section>
 
-      <ul class="owb">
-        <li>+ Onbeperkt Data</li>
-        <li>+ Onbeperkt Bellen</li>
-        <li>+ Onbeperkt SMS</li>
-      </ul>
-      <img
-        src="images/screenshot 2026-09-20 173033.png"
-        alt="yt"
-        width="250"
-        height="200"
-      />
-      <br />
-      <button class="nogbutton">Ontdek Mobiel en Tv</button>
-      <img
-        class="img-01"
-        src="images/image-main-01.png"
-        alt="vrouwmettelefoon"
-      />
-    </section>
+        <section id="mobiel-tv">
+            <div class="tekst">
+                <h2>Het beste van Mobiel en TV</h2>
+                <p>Text hier: uitleg over Mobiel en TV.</p>
+                <ul>
+                    <li>Voordeel 1</li>
+                    <li>Voordeel 2</li>
+                    <li>Voordeel 3</li>
+                </ul>
+                <button type="button" class="knop-paars">Ontdek Mobiel en TV</button>
+            </div>
+            <img src="images/image-main-01.png" alt="Afbeelding bij Mobiel en TV">
+        </section>
+    </main>
+
     <footer>
-      <p>
-        <a class="linkj" href="HalloHi">hallohi</a>
-        <a class="linkj" href="Voorwaarden">voorwaarden</a>
-        <a class="linkj" href="privacy">privacy</a>
-      </p>
-
-      <button class="play">
-        <a class="appleggls" href="https://play.google.com" target="_self"
-          >Download Google Play</a
-        >
-      </button>
-      <button class="play">
-        <a
-          class="appleggls"
-          href="https://www.apple.com/app-store/"
-          target="_self"
-          >Download App Store</a
-        >
-      </button>
+        <div class="footer-links">
+            <a href="#">Over HalloHi</a>
+            <a href="#">Voorwaarden</a>
+            <a href="#">Privacy</a>
+        </div>
+        <div class="footer-apps">
+            <a href="#">Google Play</a>
+            <a href="#">App Store</a>
+        </div>
     </footer>
-  </body>
+
+</body>
 </html>
